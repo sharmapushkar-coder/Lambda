@@ -1,0 +1,96 @@
+html,body{
+  background-image:url('https://wallpaperaccess.com/full/57166.jpg') ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color:white;
+}
+.top-bar{
+  position:absolute;
+  top:0px;
+  left:1px;
+  width:100%;
+  background-color:	#050605;
+  color:white;
+  padding:10px 10px 10px 10px;
+}
+.loading-top{
+  width:100%;
+  height:100%;
+  position:absolute;
+  left:0%;
+  top:10%;
+}
+.news{
+  position:absolute;
+  top:50%;
+  left:8%;
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_jp57PCDW2akCj_UgzVn-Q1GG5lUKyBYCHg&usqp=CAU');
+  background-size:cover;
+  background-color:aqua;
+  color:black;
+  width:80%;
+  padding:10px 10px 10px 10px;
+  border-radius:10px;
+  font-family:Franklin Gothic Medium;
+  opacity:0.9;
+}
+a{
+  color:black;
+  font-family:manipulation;
+}
+iframe{
+  height:350px;
+  width:90%;
+}
+#info{
+  background-color:white;
+  text-align:center;
+  padding:5px 5px 5px 5px ;
+  color:black;
+  border:1px solid yellow;
+  border-radius:5px;
+  position:fixed;
+  bottom:10%;
+}
+.sinput{
+  background-color:black;
+  color:white;
+  width:60%;
+  height:80px;
+  text-align: center;
+  border-radius:10px;
+}
+.sbutton{
+  background-color:white;
+  color:black;
+  width:20%;
+  height:80px;
+  border-radius:10px;
+}
+.more-button {
+  background-color:black;
+  color:white;
+  width:80%;
+  height:40px;
+  border-radius:5px;
+  border:1px solid orange;
+}
+.glow {
+  color: #ffffff;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px yellow, 0 0 20px white, 0 0 30px yellow, 0 0 40px white, 
+                 0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
+  }
+  to {
+    text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 
+                 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}

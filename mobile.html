@@ -1,0 +1,89 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Home | Connectopia </title>
+  <link href="favicon.jpg"rel="icon"/>
+  <link href="stats.css" rel="stylesheet" type="text/css" />
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script> 
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1750533681824200"crossorigin="anonymous"></script>
+  <script>
+  var firebaseConfig = {
+  apiKey: "AIzaSyDvekSO0AspCgWZyIW4fPH68nlgC1vk5bU",
+  authDomain: "dr-bot-cvsd.firebaseapp.com",
+  databaseURL: "https://dr-bot-cvsd-default-rtdb.firebaseio.com",
+  projectId: "dr-bot-cvsd",
+  storageBucket: "dr-bot-cvsd.appspot.com",
+  messagingSenderId: "309042927466",
+  appId: "1:309042927466:web:add9de192718a550e43713"
+  };
+  firebase.initializeApp(firebaseConfig);
+</script>
+  </head>
+  <body>
+    <script src="mobile.js"></script>
+    <script src="Active.js"></script>
+    <div class="loading-top"id="load">
+      <center>
+        <b id="log_data">Logging in..</b>
+      </center>
+    </div>
+    <div class="top-bar">
+      <h2 id="user-name"onclick="profile()"></h2>
+    </div>
+    <div id="info"style="display:none">
+      <b id="msg">*(*uh*&(uoi&^t</b>
+    </div>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    
+    <center><input id="unsearch"placeholder="Search a user on our Website"class="sinput">
+    <button onclick="Search()"class="sbutton">Search</button></center>
+<center>
+    <div class="news"onmouseover="increase()"onmouseout="decrease()"id="main">
+      <h2 style="text-align:center">Choose a Service</h2>
+      <center>
+      <button onclick="location.href='chat/?from=home'"class="more-button">Global Chat</button>  
+    <br></br>
+      <button onclick="location.href='https://connectopia.repl.co/pc/'"class="more-button">Private chat</button>
+      <br></br>
+      <button onclick="location.href='#noti'"class="more-button">Notification</button>
+      <br></br>
+      <button onclick="location.href='https://connectopia.repl.co/terminated.html'"class="more-button">Danda Dandi NEW!</button>
+      <br></br>
+      <button onclick="location.href='logout/?from=home'"class="more-button">Logout</button>
+      <br></br>
+      <button onclick="location.href='feedback'"class="more-button">Suggest and Feedback</button>
+        
+      </center>
+    </div>
+</center>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <center><iframe id="noti" src="https://connectopia.repl.co/noti"height="180px"></iframe></center>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+<html>
+  <head><title>Logging in </title></head>
+  <body>
+    <script>
+      var token=window.location.search
+      var f=token.replace("?t=",'')
+      localStorage.authid=f
+    </script>
+    <h1>Logged In successfully</h1>
+  </body>
+</html>

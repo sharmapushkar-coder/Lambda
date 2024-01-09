@@ -1,0 +1,20 @@
+body{
+  background-color:black;
+  color:white;
+  
+}
+.info-bar{
+  background-color:#262121;
+  color:white;
+  font-size:20px;
+  padding:10px 10px 10px 10px;
+  border:2px solid white;
+  border-radius:5px;
+}
+button{
+  background-color:blue;
+  color:white;
+  border:1px solid white;
+  border-radius:5px;
+  padding:10px 10px 10px;
+}
